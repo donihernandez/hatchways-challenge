@@ -2,7 +2,7 @@
 A simple frontend challenge for interview purposes.
 
 Github Repository: https://github.com/donihernandez/hatchways-challenge
-Project URL: 
+Project URL: https://hatchways-challenge.vercel.app/
 
 # Getting Started with Create React App
 
