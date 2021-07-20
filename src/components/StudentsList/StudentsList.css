@@ -1,0 +1,35 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    border: 1px solid #ddd;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #cccccc;
+    padding: 30px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    overflow-y: scroll;
+}
+
+.search-input {
+    border: none;
+    height: 40px;
+    padding: 20px 20px 10px 0;
+    border-bottom: 1px solid #cccccc;
+}
+
+input.search-input::-webkit-input-placeholder {
+    color: #a1a1a1;
+}
+
+input.search-input:focus {
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+}

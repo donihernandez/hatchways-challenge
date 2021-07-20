@@ -1,0 +1,108 @@
+.student-item {
+    display: flex;
+    margin-top: 30px;
+}
+
+.student-item-img {
+    height: 150px;
+    width: 150px;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.student-item-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    object-fit: cover;
+    flex: 1;
+}
+
+.student-item-data {
+    margin-left: 30px;
+    flex: 2;
+}
+
+.student-item-data h2 {
+    font-size: 3em;
+    margin: 0.67rem 0;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.student-item-description {
+    margin-left: 25px;
+}
+
+.student-item-data p {
+    font-weight: 400;
+    color: #a1a1a1;
+}
+
+.student-item-details {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    color: #a1a1a1;
+}
+
+.student-item-details svg {
+    cursor: pointer;
+}
+
+.student-item-grade {
+    color: #a1a1a1;
+}
+
+.student-item-tags {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1em;
+}
+
+.student-item-tag {
+    background: #e0e0e0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.student-item-tags-input {
+    border: none;
+    height: 20px;
+    padding: 10px 10px 10px 0;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 20px;
+}
+
+input.student-item-tags-input::-webkit-input-placeholder {
+    color: #a1a1a1;
+}
+
+input.student-item-tags-input:focus {
+    outline: none;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a1a1a1;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
